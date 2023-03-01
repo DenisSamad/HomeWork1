@@ -529,7 +529,6 @@
     background-color: #66c05d;
   }
 
-
   .map-title {
     width: 250px;
     font-weight: 700;
@@ -572,7 +571,7 @@
     column-gap: 15px;
   }
 
-  img{
+  img {
     max-width: none;
   }
 
@@ -908,17 +907,279 @@
   .tel-number {
     text-decoration: none;
     font-size: 12px;
-  } 
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
   body {
     font-family: "Roboto", sans-serif;
   }
+  .header-top-line {
+    display: none;
+  }
+  .tel-number {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .callback {
+    display: none;
+  }
+  .social-media{
+    display: none;
+  }
+
   .container {
+    margin: 0px;
     width: 345px;
-    padding: 0 15px;
     margin: 0 auto;
   }
+
+  .header-menu {
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 40px;
+    margin-bottom: 35px;
+  }
+
+  .header-logo {
+    width: 184px;
+    height: 60px;
+  }
+
+  .block1 {
+    background-image: url(../img/png/salemobbile.png);
+    background-repeat: no-repeat;
+    max-width: 600px;
+    width: 100%;
+    height: 200px;
+  }
+
+  .block1-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title{
+    margin-top: 40px;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .title-description{
+    width: 185px;
+    font-size: 10px;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .about{
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 10px;
+  }
+
+  .block2{
+    height: 1390px;
+    background-color: #efefef;
+
+  }
+
+  .special-titlle{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 80px;
+  }
+
+  .offers-row{
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    max-height: 723px;
+  }
+
+  .offer-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 162px;
+    height: 350px;
+    background-color: #ffffff;
+  }
+
+  .offer-card-image{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    max-width: 110px;
+  }
+
+  .buy{
+    width: 100px;
+    height: 25px;
+    background-color: #66c05d;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .offer-card-dscr {
+    text-align: center;
+    max-width: 145px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .price {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .mail-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mail-card {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 345px;
+    height: 212px;
+    background-color: #66c05d;
+    margin-bottom: 20px;
+  }
+
+  .mail-title {
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .mail-dsc {
+    font-size: 10px;
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .mail-input {
+    width: 130px;
+    height: 25px;
+    background-color: white;
+    color: #c4c4c4;
+    font-size: 10px;
+    border-radius: 35px;
+    margin-left: 25px;
+  }
+
+  .mail-svg {
+    width: 100px;
+    height: 80px;
+    margin-top: 65px;
+  }
+
+  .map-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 345px;
+    height: 212px;
+    background-color: #66c05d;
+  }
+
+  .map-title {
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+  }
+
+  .map-dsc {
+    font-size: 14px;
+    max-width: 156px;
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 40px;
+  }
+
+  .map-list {
+    width: 130px;
+    height: 25px;
+    border: 2px solid white;
+    color: white;
+    left: 40px;
+    border-radius: 25px;
+    margin-left: 25px;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .car-svg{
+    width: 120px;
+    height: 80px;
+    margin-top: 70px;
+  }
   
+  .footer__line{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .adress{
+    margin-top: 30px;
+    font-size: 10px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .lower-footer{
+    height: 65px;
+    background-color: #efefef;
+  }
+
+  .teorr {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+  }
+
+  .asd,
+  .dsa {
+    color: #828282;
+    font-size: 7px;
+  }
+
+
+
 }
